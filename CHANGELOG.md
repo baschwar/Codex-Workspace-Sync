@@ -6,7 +6,19 @@ This project follows semantic versioning for release tags.
 
 ## [Unreleased]
 
-- Added a top-level repository README for GitHub landing page visibility.
+## [0.1.1] - 2026-06-16
+
+### Changed
+
+- Updated README documentation to reflect the current GitHub sync workflow.
+- Documented the workspace-local marketplace entry and plugin metadata paths.
+- Made `git-clone --branch main` explicit in quick-start examples to avoid
+  fresh-remote branch ambiguity.
+
+### Verified
+
+- Published the local workspace back to GitHub through the sync workflow.
+- Merged the existing GitHub baseline with the local plugin updates.
 
 ## [0.1.0] - 2026-06-15
 

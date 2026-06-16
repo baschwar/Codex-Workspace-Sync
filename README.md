@@ -3,6 +3,8 @@
 Codex Workspace Sync is a Codex plugin for syncing Codex workspaces between
 computers through GitHub.
 
+Current version: `0.1.1`.
+
 The main workflow uses one GitHub remote repository with two or more local
 working copies:
 
@@ -26,6 +28,10 @@ Detailed setup and usage docs are in:
 ```text
 plugins/codex-workspace-sync/README.md
 ```
+
+This repository also includes a workspace-local marketplace entry at
+`.agents/plugins/marketplace.json`, so Codex can discover the plugin from this
+checkout.
 
 ## Quick Start
 
@@ -64,3 +70,12 @@ python3 plugins/codex-workspace-sync/scripts/codex_workspace_sync.py git-sync \
 ```
 
 The plugin also includes a snapshot fallback for non-Git folders.
+
+## Current Status
+
+- GitHub-backed setup, clone, pull, publish, sync, and status commands are
+  implemented.
+- Snapshot, list, status, and restore fallback commands are implemented for
+  folders that should not be Git repositories.
+- Top-level GitHub README, local marketplace metadata, and branch-explicit clone
+  examples are in place.

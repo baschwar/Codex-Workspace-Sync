@@ -5,6 +5,28 @@ computers. The preferred workflow uses one GitHub remote repository with two or
 more local clones. A secondary snapshot workflow is still available for folders
 that should not be Git repositories.
 
+Current version: `0.1.1`.
+
+## Plugin Installation
+
+This repository includes a local marketplace entry:
+
+```text
+.agents/plugins/marketplace.json
+```
+
+That entry points Codex at:
+
+```text
+plugins/codex-workspace-sync/
+```
+
+The plugin metadata lives in:
+
+```text
+plugins/codex-workspace-sync/.codex-plugin/plugin.json
+```
+
 ## GitHub Workflow
 
 The GitHub model is:
@@ -134,3 +156,11 @@ python3 scripts/codex_workspace_sync.py restore \
 By default the script skips bulky generated folders such as `node_modules`,
 `.venv`, `.next`, `dist`, and `build`. Use `--include-heavy` with `snapshot` if
 you want a fuller archive.
+
+## Current Status
+
+- GitHub-backed setup, clone, pull, publish, sync, and status commands are
+  implemented.
+- Snapshot, list, status, and restore fallback commands are implemented.
+- Top-level GitHub README, local marketplace metadata, and branch-explicit clone
+  examples are in place.

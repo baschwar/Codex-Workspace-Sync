@@ -1,6 +1,6 @@
 {
   "name": "codex-workspace-sync",
-  "version": "0.1.0+codex.20260616054720",
+  "version": "0.1.1",
   "description": "Sync Codex workspaces through GitHub remotes or portable snapshots.",
   "author": {
     "name": "Local developer"
