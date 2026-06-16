@@ -1,0 +1,18 @@
+# Codex Workspace Sync defaults
+.DS_Store
+.codex-workspace-sync/
+.env
+.env.*
+.next/
+.npm/
+.pnpm-store/
+.pytest_cache/
+.ruff_cache/
+.turbo/
+.venv/
+__pycache__/
+build/
+coverage/
+dist/
+node_modules/
+venv/
