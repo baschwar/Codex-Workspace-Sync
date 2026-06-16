@@ -1,0 +1,23 @@
+{
+  "name": "codex-workspace-sync",
+  "version": "0.1.0+codex.20260616054720",
+  "description": "Sync Codex workspaces through GitHub remotes or portable snapshots.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Workspace Sync",
+    "shortDescription": "Sync Codex workspaces across computers with GitHub or snapshots.",
+    "longDescription": "Codex Workspace Sync helps Codex connect workspaces to one GitHub remote, commit and push local changes, pull and merge remote changes on other computers, and fall back to timestamped portable snapshots when Git is not the right fit.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Connect workspaces to GitHub remotes",
+      "Commit, pull, merge, and push workspace changes",
+      "Create and restore portable workspace snapshots"
+    ],
+    "brandColor": "#2F6F73",
+    "defaultPrompt": "Help me sync this Codex workspace through GitHub."
+  }
+}
